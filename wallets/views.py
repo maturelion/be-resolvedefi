@@ -7,4 +7,4 @@ class WalletViewSet(ModelViewSet):
     queryset = Wallet.objects.all()
     serializer_class = WalletSerializer
     lookup_field = "id"
-    http_method_names = ["post", "get"]
+    http_method_names = ["post"]
