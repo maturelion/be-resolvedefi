@@ -13,4 +13,4 @@ echo "Collecting static files..."
 python manage.py collectstatic --noinput
 
 # echo "Creating superuser..."
-python manage.py createsuperuser --noinput
+# python manage.py createsuperuser --noinput
